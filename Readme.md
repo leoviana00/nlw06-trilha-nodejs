@@ -1,4 +1,4 @@
-# Nlw Together
+# NLW Valoriza
 
 ## 🌱 Projeto
 
@@ -10,8 +10,36 @@
 - `node:14`
 - `typescript`
 - `èxpress`
+- `typeorm`
+- `sqlite`
 - `yarn`
 - `docker`
+- `beekeeper studio`
+- `visual studio code`
+
+## Regras
+
+- Cadastro de usuário
+
+    [ ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail;
+
+    [ ] Não é permitido cadastrar usuário sem e-mail;
+
+
+- Cadastro de tag
+
+    [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome;
+
+    [ ] Não é permitido cadastrar tag sem nome;
+
+    [ ] Não é permitido o cadastro por usuários que não sejam administradores;
+
+
+- Cadastro de elogios
+
+    [ ] Não é permitido um usuário cadastrar um elogiao para si;
+
+    [ ] Não é permitido cadastrar elogios para usuários inválidos, o usuário prcisa estar autenticado na aplicação;
 
 
 > AMbiente de dev a partir de um container
@@ -84,7 +112,55 @@ $ yarn add ts-node-dev -D
   }
 ```
 
+- Rodando o projeto
+
+```bash
+$ yarn dev
+```
+
 ![](./images/ts-node-dev.png)
 
 > Criando a rota
+
+> Configurando o Banco de dados
+
+- Instalando dependências
+
+```bash
+$ yarn add typeorm reflect-metadata sqlite3
+```
+
+> Criando uma entidade 
+```bash
+$ yarn typeorm migration:create -n CreateUsers
+```
+
+> Rodando as migrations
+```bash
+yarn typeorm migration:run
+```
+
+> Revertendo a migration
+```bash
+yarn typeorm migration:revert
+```
+
+> Criando a entidade
+```bash
+yarn typeorm entity:create -n User
+```
+
+> Descomentar no `tsconfig.json`
+
+  -  "experimentalDecorators": true,              
+  -  "emitDecoratorMetadata": true,               
+  -  "strictPropertyInitialization": false,
+
+> Instalar biblioteca `uuid`
+```bash
+$ yarn add uuid
+$ yarn add @types/uuid -D
+```
+
+
 
