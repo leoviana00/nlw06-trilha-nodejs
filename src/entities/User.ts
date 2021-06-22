@@ -22,7 +22,7 @@ class User {
     @UpdateDateColumn()
     update_at: Date;
 
-    construtor() {
+    constructor() {
         if (!this.id) {
             this.id = uuid();
         }
