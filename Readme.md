@@ -42,7 +42,7 @@
     [ ] Não é permitido cadastrar elogios para usuários inválidos, o usuário prcisa estar autenticado na aplicação;
 
 
-> AMbiente de dev a partir de um container
+## Ambiente de dev a partir de um container
 
 - Executando o container
 
@@ -120,9 +120,7 @@ $ yarn dev
 
 ![](./images/ts-node-dev.png)
 
-> Criando a rota
-
-> Configurando o Banco de dados
+## Configurando o Banco de dados
 
 - Instalando dependências
 
@@ -130,22 +128,23 @@ $ yarn dev
 $ yarn add typeorm reflect-metadata sqlite3
 ```
 
-> Criando uma entidade 
+- Criando uma entidade 
 ```bash
 $ yarn typeorm migration:create -n CreateUsers
 ```
 
-> Rodando as migrations
+- Rodando as migrations
 ```bash
 yarn typeorm migration:run
 ```
 
-> Revertendo a migration
+- Revertendo a migration
 ```bash
 yarn typeorm migration:revert
 ```
 
-> Criando a entidade
+- Entidade
+
 ```bash
 yarn typeorm entity:create -n User
 ```
