@@ -17,6 +17,16 @@
 - `beekeeper studio`
 - `visual studio code`
 
+## Camadas
+```console
+- Controllers - Acesso ao request e response, pegar a informação do server (rota) e passa ao service.
+- Routes - Responsável pelas rotas do projeto.
+- Services - Uma camada que isola as regras de negócio das demais camadas.
+- Entities - Referência da tabela sendo criada.
+- Repository  - Camada responsável por fazer o acesso ao banco, faz a ponte entre as entidades e o banco de dados.
+- Banco de dados 
+```
+
 ## Regras
 
 - Cadastro de usuário
@@ -128,7 +138,7 @@ $ yarn dev
 $ yarn add typeorm reflect-metadata sqlite3
 ```
 
-- Criando uma entidade 
+- Criando uma migration
 ```bash
 $ yarn typeorm migration:create -n CreateUsers
 ```
@@ -143,7 +153,7 @@ yarn typeorm migration:run
 yarn typeorm migration:revert
 ```
 
-- Entidade
+- Criando entidade
 
 ```bash
 yarn typeorm entity:create -n User
