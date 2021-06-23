@@ -17,32 +17,33 @@
 - `beekeeper studio`
 - `visual studio code`
 
-## Camadas
-```console
-- Controllers - Acesso ao request e response, pegar a informação do server (rota) e passa ao service.
-- Routes - Responsável pelas rotas do projeto.
-- Services - Uma camada que isola as regras de negócio das demais camadas.
-- Entities - Referência da tabela sendo criada.
-- Repository  - Camada responsável por fazer o acesso ao banco, faz a ponte entre as entidades e o banco de dados.
-- Banco de dados 
-```
+## 📝 Menu
 
+| Id | Notas |
+| --- |---------- |
+| 01 | [Preparação do ambiente](notas/ambiente.md)|
+| 02 | [Definições](notas/camadas.md)|
+| 03 | [Configuração do banco de dados](notas/bancodedados.md)|
+| 04 | [Tratamento de exceções](notas/tratamentodeerros.md)|
+| 05 | [Estrutura das Tags](notas/estruturadetags.md)|
+| 05 | [Códigos das aulas](notas/codigo.md)|
+|        |        |
 ## Regras
 
 - Cadastro de usuário
 
-    [ ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail;
+    [x] Não é permitido cadastrar mais de um usuário com o mesmo e-mail;
 
-    [ ] Não é permitido cadastrar usuário sem e-mail;
+    [x] Não é permitido cadastrar usuário sem e-mail;
 
 
 - Cadastro de tag
 
-    [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome;
+    [x] Não é permitido cadastrar mais de uma tag com o mesmo nome;
 
-    [ ] Não é permitido cadastrar tag sem nome;
+    [x] Não é permitido cadastrar tag sem nome;
 
-    [ ] Não é permitido o cadastro por usuários que não sejam administradores;
+    [x] Não é permitido o cadastro por usuários que não sejam administradores;
 
 
 - Cadastro de elogios
@@ -52,124 +53,9 @@
     [ ] Não é permitido cadastrar elogios para usuários inválidos, o usuário prcisa estar autenticado na aplicação;
 
 
-## Ambiente de dev a partir de um container
 
-- Executando o container
 
-```console
-$ docker run --rm -it -v $(pwd)/:/usr/src/app -p 3000:3000 node:14 bash
-```
 
-- Acessando o diretório de trabalho
-
-```console
-$ cd /usr/src/app
-```
-
-- Criando o projeto com `yarn`
-
-```console
-$ yarn init -y
-```
-
-> Instalação da dependência e configuração do `typescript`
-
-- Typescript
-
-```console
-$ yarn add typescript -D
-```
-
-- Inicializando o `typescript`
-
-```console
-$ yarn tsc --init
-```
-
-- Converter o `typescript` para `javascript`
-
-```console
-$ yarn tsc
-```
-
-> Instalando o `express`
-
-- Configurando dependência
-
-```console
-$ yarn add express
-```
-
-- Instalando a biblioteca types do express
-
-```console
-$ yarn add @types/express -D
-```
-
-> Automatizando o processo de conversão de typescript para javascript
-
-- Instalação da biblioteca responsável pela conversão
-
-```console
-$ yarn add ts-node-dev -D
-```
-
-- Ajuste do `package.json`
-
-```console
-  "scripts" : {
-    "dev" : "ts-node-dev src/server.ts"
-  }
-```
-
-- Rodando o projeto
-
-```bash
-$ yarn dev
-```
-
-![](./images/ts-node-dev.png)
-
-## Configurando o Banco de dados
-
-- Instalando dependências
-
-```bash
-$ yarn add typeorm reflect-metadata sqlite3
-```
-
-- Criando uma migration
-```bash
-$ yarn typeorm migration:create -n CreateUsers
-```
-
-- Rodando as migrations
-```bash
-yarn typeorm migration:run
-```
-
-- Revertendo a migration
-```bash
-yarn typeorm migration:revert
-```
-
-- Criando entidade
-
-```bash
-yarn typeorm entity:create -n User
-```
-
-> Descomentar no `tsconfig.json`
-
-  -  "experimentalDecorators": true,              
-  -  "emitDecoratorMetadata": true,               
-  -  "strictPropertyInitialization": false,
-
-> Instalar biblioteca `uuid`
-```bash
-$ yarn add uuid
-$ yarn add @types/uuid -D
-```
 
 
 
