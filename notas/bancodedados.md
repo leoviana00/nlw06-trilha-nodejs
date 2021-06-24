@@ -6,6 +6,8 @@
 $ yarn add typeorm reflect-metadata sqlite3
 ```
 
+## Migration
+
 - Criando uma migration
 ```bash
 $ yarn typeorm migration:create -n CreateUsers
@@ -21,6 +23,17 @@ yarn typeorm migration:run
 yarn typeorm migration:revert
 ```
 
+- Alterando user com migration 
+
+```
+$ yarn typeorm migration:create -n AlterUserAddPassword
+```
+```
+$ yarn typeorm migration:run
+```
+
+## Entidade
+
 - Criando entidade
 
 ```bash
@@ -32,6 +45,8 @@ yarn typeorm entity:create -n User
   -  "experimentalDecorators": true,              
   -  "emitDecoratorMetadata": true,               
   -  "strictPropertyInitialization": false,
+
+## UUID
 
 > Instalar biblioteca `uuid`
 ```bash
