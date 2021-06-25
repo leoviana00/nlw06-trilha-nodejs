@@ -4,7 +4,7 @@
 - Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo realizado.
 
 1. Cadastro de usuários
-2. Cadastro de tags (SOmente usuário administrador)
+2. Cadastro de tags (Somente usuário administrador)
 3. Cadastro de elogios ( `ID do usuário`, `ID da tag`, `data da criação`)
 4. Autenticação do usuário (Gerar token `JWT`, validar usuário logado nas rotas necessárias)
 5. Listagem de usuários
