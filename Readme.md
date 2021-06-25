@@ -24,7 +24,6 @@
 
 | Id | Notas |
 | --- |---------- |
-| 00 | [Códigos das aulas](notas/codigo.md)|
 | 01 | [Preparação do ambiente](notas/ambiente.md)|
 | 02 | [Definições](notas/camadas.md)|
 | 03 | [Configuração do banco de dados](notas/bancodedados.md)|
