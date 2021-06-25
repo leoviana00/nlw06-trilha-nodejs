@@ -3,26 +3,37 @@
 ## 🌱 Projeto
 
 - Nlw Valoriza
-- Realização do projeto ministrado pela Dani Leão no NLW 06 - Trilha Nodejs
+- Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo feito.
 
-> Tecnologias
+1. Cadastro de usuários
+2. Cadastro de tags (SOmente usuário administrador)
+3. Cadastro de elogios ( `ID do usuário`, `ID da tag`, `data da criação`)
+4. Autenticação do usuário (Gerar token `JWT`, validar usuário logado nas rotas necessárias)
+5. Listagem de usuários
+6. Listagem de tags
+7. Listagem de elogios por usuário   
 
-- `api`
-- `node:14`
-- `typescript`
-- `èxpress`
-- `typeorm`
-- `sqlite`
-- `yarn`
-- `docker`
-- `beekeeper studio`
-- `visual studio code`
-- `jwt`
-- `bcryptjs`
+
+## ✨ Tecnologias
+
+
+- [Nodejs](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeOrm](https://typeorm.io/#/)
+- [Sqlite](https://www.sqlite.org/)
+- [Docker](https://www.docker.com/)
+- [JWT](https://jwt.io/)
+
+## 🚀 Como executar
+
+- Clone o repositório
+- Instale as dependências com `yarn`
+- Inicie o servidor com `yarn dev`
+
 
 ## 📝 Menu
 
-| Id | Notas |
+| Id | Itens |
 | --- |---------- |
 | 01 | [Preparação do ambiente](notas/ambiente.md)|
 | 02 | [Definições](notas/camadas.md)|
