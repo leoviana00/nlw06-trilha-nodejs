@@ -1,7 +1,11 @@
 ## 🌱 Projeto
 
-- Nlw Valoriza
-- Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo realizado.
+```console
+Nome do projeto: Nlw Valoriza
+Descrição: Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo realizado.
+Educador: Daniele Leão
+```
+- Estrutura do projeto
 
 1. Cadastro de usuários
 2. Cadastro de tags (Somente usuário administrador)
