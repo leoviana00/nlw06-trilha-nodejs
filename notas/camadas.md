@@ -10,6 +10,7 @@
 - Banco de dados 
 ```
 ## Métodos
+
 ```bash
 - GET - Buscar uma informação
 - POST - Inserir uma informação
@@ -18,6 +19,7 @@
 - PATCH - Alterar uma informação específica
 ```
 ## Tipos de parâmetros
+
 ```bash
 - Routes Params => http://localhost:3000/produtos/893218309
 - Query Params => http://localhost:200/produtos?name=teclado&descriptio=tecladobom 
@@ -26,6 +28,14 @@
 "description":"tecladobom"
 }
 ```
+## ORM (Object Relational Mapper)
 
-## ORM
-- PEGA O OBJETO DENTRO DA CLASSE E TRANSFORMA EM UMA FORMA ONDE O BANCO DE DADOS CONSEGUE ENTENDER, FAZ UMA RELAÇÃO ENTRE O OBJETO E UMA TABALA DO BANCO DE DADOS.
+- Pega o objeto de dentro da classe e transforma em uma forma onde o banco de dados consegue entender, faz uma relação entre objeto e uma tabela do banco de dados.
+
+## Migration
+
+- Permite a criação e manipulação dos banco de dados, mantendo o histórico das alterações realizadas ao longo do tempo.
+
+## Middleware
+
+- são funções que ficam entre uma requisição e a responsta final que o server encaminha ao cliente, podem realizar algum tipo de intervenção.

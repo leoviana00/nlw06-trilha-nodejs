@@ -74,4 +74,3 @@ $ yarn add ts-node-dev -D
 $ yarn dev
 ```
 
-![](./images/ts-node-dev.png)

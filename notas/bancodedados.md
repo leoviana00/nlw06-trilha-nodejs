@@ -46,13 +46,17 @@ yarn typeorm entity:create -n User
   -  "emitDecoratorMetadata": true,               
   -  "strictPropertyInitialization": false,
 
-## UUID
+## Beekeeper
 
-> Instalar biblioteca `uuid`
-```bash
-$ yarn add uuid
-$ yarn add @types/uuid -D
-```
+- Entidades criadas
+
+![](images/beekeeper.png)
+
+- Elogios cadastrados
+
+![](images/elogios-cadastrados.png)
+
+
 
 
 
