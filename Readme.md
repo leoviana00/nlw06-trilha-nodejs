@@ -1,7 +1,7 @@
 ## 🌱 Projeto
 
 - Nlw Valoriza
-- Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo feito.
+- Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo realizado.
 
 1. Cadastro de usuários
 2. Cadastro de tags (SOmente usuário administrador)
