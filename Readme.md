@@ -18,7 +18,6 @@
 - `beekeeper studio`
 - `visual studio code`
 - `jwt`
-- `orm`
 - `bcryptjs`
 
 ## 📝 Menu
