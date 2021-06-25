@@ -32,6 +32,10 @@
 | 08 | [Regras](notas/regras.md)|
 |        |        |
 
+## Links importantes
+
+- md5hashgenerator.com
+- https://jwt.io/
 
 
 
