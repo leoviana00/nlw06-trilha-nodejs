@@ -3,7 +3,7 @@
 ## 🌱 Projeto
 
 - Nlw Valoriza
-- Realização do projeto acompanhado a Dani Leão no NLW 06 - Trilha Nodejs
+- Realização do projeto acompanhando a Dani Leão no NLW 06 - Trilha Nodejs
 
 > Tecnologias
 
