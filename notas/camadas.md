@@ -1,4 +1,6 @@
-## Camadas 
+## Definições
+
+> Camadas 
 
 ```bash
 - Server
@@ -9,7 +11,7 @@
 - Repository  - Camada responsável por fazer o acesso ao banco, faz a ponte entre as entidades e o banco de dados.
 - Banco de dados 
 ```
-## Métodos
+> Métodos
 
 ```bash
 - GET - Buscar uma informação
@@ -18,7 +20,7 @@
 - DELETE - Remover um dado
 - PATCH - Alterar uma informação específica
 ```
-## Tipos de parâmetros
+> Tipos de parâmetros
 
 ```bash
 - Routes Params => http://localhost:3000/produtos/893218309
@@ -28,14 +30,14 @@
 "description":"tecladobom"
 }
 ```
-## ORM (Object Relational Mapper)
+> ORM (Object Relational Mapper)
 
 - Pega o objeto de dentro da classe e transforma em uma forma onde o banco de dados consegue entender, faz uma relação entre objeto e uma tabela do banco de dados.
 
-## Migration
+> Migration
 
 - Permite a criação e manipulação dos banco de dados, mantendo o histórico das alterações realizadas ao longo do tempo.
 
-## Middleware
+> [Middleware](middleware.md)
 
 - são funções que ficam entre uma requisição e a responsta final que o server encaminha ao cliente, podem realizar algum tipo de intervenção.
