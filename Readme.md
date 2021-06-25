@@ -1,5 +1,3 @@
-# NLW Valoriza
-
 ## 🌱 Projeto
 
 - Nlw Valoriza
