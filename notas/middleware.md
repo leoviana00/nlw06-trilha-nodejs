@@ -5,7 +5,7 @@
 - Criar um para verificar se o user é admin ou não
 
 
-# Customizae a exposição de atributos da entidade
+## Customizae a exposição de atributos da entidade
 
 - Biblioteca `class-transformer`
 ```bash
