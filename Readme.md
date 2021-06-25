@@ -29,7 +29,7 @@
 - Inicie o servidor com `yarn dev`
 
 
-## 📝 Menu
+## 📝 Notas realizadas durante o projeto
 
 | Id | Itens |
 | --- |---------- |
