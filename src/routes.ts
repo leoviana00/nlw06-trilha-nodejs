@@ -8,7 +8,7 @@ import { ensureAuthenticated } from "./middlewares/ensureAuthenticated";
 import { ListUserSenderComplimentsController } from "./controllers/ListUserSenderComplimentsController";
 import { ListUserReceiverComplimentsController } from "./controllers/ListUserReceiverComplimentsController";
 import { ListTagController } from "./controllers/ListTagsController";
-import { ListUsersController } from "./controllers/ListUsersController";
+import { ListUserController } from "./controllers/ListUsersController";
 
 const router = Router();
 
@@ -19,7 +19,7 @@ const createComplimentController = new CretaeComplimentController();
 const listUserSenderComplimentsController = new ListUserSenderComplimentsController();
 const listUserReceiverComplimentsController = new ListUserReceiverComplimentsController();
 const listTagsController = new ListTagController();
-const listUsersController = new ListUsersController();
+const listUsersController = new ListUserController();
 
 router.post("/users", createUserController.handle);
 router.post("/tags", ensureAuthenticated, ensureAdmin, createTagController.handle);
