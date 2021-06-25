@@ -47,3 +47,7 @@ $ yarn add bcryptjs
 ```
 $ yarn add @types/bcryptjs -D
 ```
+
+## Tipo de Auth Utilizado
+
+- Bearer
