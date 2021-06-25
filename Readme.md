@@ -3,6 +3,7 @@
 ## 🌱 Projeto
 
 - Nlw Valoriza
+- Realização do projeto acompanhado a Dani Leão no NLW 06 - Trilha Nodejs
 
 > Tecnologias
 
@@ -29,30 +30,13 @@
 | 05 | [Estrutura das Tags](notas/estruturadetags.md)|
 | 06 | [Estrutura dos Compliments](notas/estruturacompliments.md)|
 | 07 | [Criptografia de senha e geração de token](notas/jwt.md)|
-| 08 | [Regras](notas/regras.md)|
+| 08 | [Rotas](notas/rotas.md)|
+| 09 | [Regras](notas/regras.md)|
+| 10 | [Outros](notas/outros.md)|
+| 10 | [Melhorias](notas/melhorias.md)|
 |        |        |
 
-## Melhorias
 
-- Quando um usuário receber um elogia, um email ser encaminhado alertando que o mesmo recebeu um elogio (Criar um serviço de email, informando que o usuário recebeu um elogio);
-
-- Colocar em produção (heroku, aws, digitalocean);
-
-- Criar um frontend;
-
-- Habilitar a aplicação para receber requisições de fora
-```
-$ yarn add cors
-$ yarn add @types/cors -D
-```
-
-- Trocar o banco de dados pelo postgresql
-
-## Links importantes
-
-- md5hashgenerator.com
-- https://jwt.io/
-- https://typeorm.io/#/
 
 
 
