@@ -39,8 +39,11 @@
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com `yarn`
-- Inicie o servidor com `yarn dev`
+- Instale as dependências: `yarn`
+- Para criar as tabelas do banco de dados: `yarn typeorm migration:run` 
+- Inicie o servidor: `yarn dev`
+
+Aplicação estará disponível em: http://localhost:3000
 
 
 ## 📝 Notas realizadas durante o projeto
