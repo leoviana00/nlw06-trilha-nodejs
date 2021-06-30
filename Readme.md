@@ -7,8 +7,18 @@
 </p>
 
 <p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-execução">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-notas">Notas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
   <img alt="Preview" src="images/preview.png">
 </p>
+
+
 
 ## 🌱 Projeto
 
@@ -36,7 +46,7 @@
 - [Docker](https://www.docker.com/)
 - [JWT](https://jwt.io/)
 
-## 🚀 Como executar
+## 🚀 Execução
 
 - Clone o repositório
 - Instale as dependências: `yarn`
@@ -46,7 +56,7 @@
 Aplicação estará disponível em: http://localhost:3000
 
 
-## 📝 Notas realizadas durante o projeto
+## 📝 Notas 
 
 | Id | Itens |
 | --- |---------- |
