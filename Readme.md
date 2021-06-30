@@ -63,6 +63,10 @@ Aplicação estará disponível em: http://localhost:3000
 | 11 | [Melhorias](notas/melhorias.md)|
 |        |        |
 
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
 
 
 
