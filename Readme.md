@@ -1,3 +1,15 @@
+<h1 align="center">Valoriza</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=NLW&message=Together&color=8257E5&labelColor=000000" alt="NLW Together" />
+
+  <img alt="License" src="https://img.shields.io/static/v1?label=Edição&message=6&color=8257E5&labelColor=000000">
+</p>
+
+<p align="center">
+  <img alt="Preview" src="images/preview.png">
+</p>
+
 ## 🌱 Projeto
 
 - Nome do projeto: `Nlw Valoriza`
