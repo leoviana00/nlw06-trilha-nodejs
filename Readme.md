@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=Together&color=8257E5&labelColor=000000" alt="NLW Together" />
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=Edição&message=6&color=8257E5&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=Edicao&message=6&color=8257E5&labelColor=000000">
 </p>
 
 <p align="center">
