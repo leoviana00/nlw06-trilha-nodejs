@@ -14,7 +14,7 @@
 
 - Nome do projeto: `Nlw Valoriza`
 - Descrição: `Projeto no qual pode ser feito e receber elogios dos colegas de trabalho por algo realizado.`
-- Educador: `Daniele Leão`
+- Educador(a): `Daniele Leão`
 - Estrutura do projeto:
 
 1. Cadastro de usuários
